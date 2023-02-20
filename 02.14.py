@@ -1,24 +1,26 @@
-# # 재귀 피보나치
-# F(i) = F[i-1] + F[i-2] for i >= 2
+# 재귀 피보나치
+F(i) = F[i-1] + F[i-2] for i >= 2
 
-# def fibo(n):
-#   if n < 2:
-#     return n
-#   else:
-#     return fibo(n-1) + fibo(n-2)
+def fibo(n):
+  if n < 2:
+    return n
+  else:
+    return fibo(n-1) + fibo(n-2)
 
-# # Memoization 피보나치
-# memo = [0] * (7+1)
-# memo[0] = 0
-# memo[1] = 1
+# Memoization 피보나치
+memo = [0] * (7+1)
+memo[0] = 0
+memo[1] = 1
 
-# def fibo(n):
-#   global memo
-#   if n >= 2 and memo[n] == 0:
-#     memo[n] = (fibo(n-1) + fibo(n-2))
-#   return memo[n]
+def fibo(n):
+  global memo
+  if n >= 2 and memo[n] == 0:
+    memo[n] = (fibo(n-1) + fibo(n-2))
+  return memo[n]
 
-# print(fibo(7))
+print(fibo(7))
+
+# DP를 이용한 피보나치
 
 def fibo(n):
   f = [0] * (n + 1)
