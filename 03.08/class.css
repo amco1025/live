@@ -1,0 +1,18 @@
+.box{
+  background-color: aquamarine;
+  width: 100px;
+  height: 100px;
+
+  margin-top: 20px;
+
+  /* 설정 안하면 margin-right가 기본 */
+  /* margin-left: auto  */
+  /* 마진이 왼쪽에 생김 박스는 오르쪽으로 */
+
+  /* margin-right: auto;
+  margin-left: auto; */
+  /* 가운데로 보내기 */
+
+  margin: 20px auto;
+  text-align: center;
+}
