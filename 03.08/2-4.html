@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="2-4.css">
+  <title>Document</title>
+  <style>
+    body span{
+      color: blue;
+    }
+
+    body div>p{
+      color: red;
+    }
+
+    div>span{
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div><p>자식</p></div>
+  <div><p><span id="b">손자</span></p></div>
+  <div><p>자식</p></div>
+</body>
+</html>
+
+<!-- style에서 span의 색을 파랑으로 지정
+style에서 p가 div의 자식이라면 색을 빨강색
+style에서 span이 div의 자식이라면 색을 빨간색
+
+body에서 p는 div의 자식이며 span은 div의 자손이다.
+따라서 p의 색은 빨강 span의 색은 파랑색이 된다. -->
