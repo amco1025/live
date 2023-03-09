@@ -1,0 +1,111 @@
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.bigbox1{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 70px;
+  background-color: red;
+  font-size: 20px;
+  color: white;
+  border: 5px solid white;
+  justify-content: center;
+}
+
+.bigbox2{
+  width: 600px;
+  height: 80px;
+  background-color: white;
+  font-size: 50px;
+  font-weight: 700;
+  border: 5px solid white;
+}
+
+.bigbox3{
+  width: 600px;
+  height: 2px;
+  border: 5px solid white;
+  background-color: #3f3e3e;
+}
+
+.bigbox4{
+  height: 500px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid rgb(156, 155, 155);
+  flex-wrap: wrap;
+}
+
+.smallbox1{
+  display: flex;
+  height: 100px;
+  width: 150px;
+  font-size: 30px;
+  font-weight: 500;
+  align-self: center;
+  justify-self: center;
+}
+
+.smallbox2{
+  display: flex;
+  width: 600px;
+  border: 2px solid rgb(179, 232, 245);
+}
+
+.smallbox3{
+  width: 539px;
+  height: 40px;
+  border: 15px solid white;
+  font-weight: 500;
+  align-self: center;
+}
+
+.smallbox4{
+  width: 540px;
+  height: 40px;
+  border: 1px solid rgb(190, 188, 188);
+  position: relative;
+  left:30px;
+}
+
+.smallbox5{
+  width: 539px;
+  height: 40px;
+  border: 15px solid white;
+  font-weight: 500;
+  align-self: center;
+}
+
+.smallbox6{
+  width: 540px;
+  height: 40px;
+  border: 1px solid rgb(190, 188, 188);
+  position: relative;
+  left:30px;
+}
+
+.smallbox7{
+  width: 600px;
+  height: 70px;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+
+#for{
+  margin-left: 200px;
+  color:rgb(0, 60, 255);
+  font-weight: 400;
+}
+
+#sign{
+  width: 520px;
+  height: 40px;
+  margin-left: 40px;
+  background-color: rgb(48, 133, 31);
+  color: white
+}
