@@ -1,0 +1,19 @@
+.container{
+  background-color: cadetblue;
+  height: 300px;
+  display: flex;
+  /* 기본값 */
+  /* align-items: stretch; */
+  /* align-items: flex-start; */
+  /* align-items:center ; */
+  /* align-items: flex-end; */
+  align-items: baseline;
+}
+
+.item{
+  background-color: tan;
+  border: 1px solid black;
+  font-size: 20px;
+  margin-right: 5px;
+}
+

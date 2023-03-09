@@ -1,0 +1,31 @@
+.container{
+  display: flex;
+  /* 끝에서 부터 반대로 쌓이는거 : 행 기준 */
+  /* flex-direction: row-reverse; */
+  /* 끝에서 부터 반대로 쌓이는거 : 열 기준 */
+  /* flex-direction: column-reverse; */
+  /* 기준 이상으로 줄어들 때 줄넘김 */
+  flex-wrap: wrap;
+  /* 왼쪽 시작점이 왼쪽 컨테이너 끝에 붙음 */
+  /* justify-content: flex-start; */
+  /* 맨 오른쪽 아이템 오른쪽 끝점이 컨테이너 오른쪽 끝에 붙음 */
+  /* justify-content: flex-end; */
+  /* 아이템 사이의 공간이 일정 */
+  /* justify-content: space-between; */
+  /* 아이템을 둘러싼 여백이 일정 */
+  /* justify-content: space-around; */
+  /* 아이템 사이와 왼쪽 끝 오른쪽 끝 사이 공간 일정 */
+  /* justify-content: space-evenly; */
+
+}
+
+.item{
+  width: 100px;
+  height: 100px;
+  background-color: lightgreen;
+
+  margin-top: 20px;
+  margin-right: 20px;
+
+  font-size: 50px;
+}
